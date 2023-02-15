@@ -1,0 +1,55 @@
+Table of contents
+---------------------------
+Telecom Churn Case Study
+
+Problem Statement
+-----------------------
+Step 1 : Data Understanding And Importing importnt libraries
+Step 2 : Data Cleaning And missing Values
+Handling missing values in rows
+Tag churners
+There is very little percentage of churn rate. We will take care of the class imbalance later.
+Outliers treatment
+Derive new features
+Deriving new column decrease_mou_action
+Deriving new column decrease_rech_num_action
+Deriving new column decrease_rech_amt_action
+EDA
+Univariate analysis
+Analysis of the minutes of usage MOU (churn and not churn) in the action phase
+Bivariate analysis
+Analysis of churn rate by the decreasing recharge amount and volume based cost in the action phase
+Dropping few derived columns, which are not required in further analysis
+Train-Test Split
+Dealing with data imbalance
+Scaling the test set
+Model with PCA
+Performing PCA with 50 components
+Logistic regression with PCA
+Logistic regression with optimal C
+Prediction on the test set
+Model summary
+Support Vector Machine(SVM) with PCA
+Hyperparameter tuning
+Plotting the accuracy with various C and gamma values
+Train set
+Decision tree with PCA
+Model with optimal hyperparameters
+Desicison tree
+Random forest with PCA
+Prediction on the train set
+Final conclusion with PCA
+Without PCA
+Feature Selection Using RFE
+Model-1 with RFE selected columns
+Model 2
+Model-3
+MODEL-4
+MODEL-5
+MODEL-6
+Hence, we can conclued that *Model-6 log_no_pca will be the final model.
+Analysis of the above curve
+Confusion metrics
+Plotting the ROC Curve (Trade off between sensitivity & specificity)
+Testing the model on the test set
+Business recomendation
